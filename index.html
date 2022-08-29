@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+body {
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+h2::before {
+  content: '💥';
+  font-size: 120px;
+  color: red;
+  display: block;
+  margin: 30px auto;
+}
+  </style>
+</head>
+<body>
+  <h1>BOOM!!</h1>
+  <p>זכית ב...</p>
+  <h2></h2>
+</body>
+<script>
+document.querySelector('h2').innerText = [
+'העלת משכורת להורה ב-20%',
+'סיבוב נוסף של משחק חיפוס מתמון - WOW!',
+'90 במטמטיקה!',
+'שעתיים בפקק בדרך לבת ים',
+'מזג אוויר טוב במשך 4 ימים',
+'גזר',
+'העלת משכורת להורה ב-40%',
+  ][Math.floor(Math.random() * 6)]
+</script>
+</html>
